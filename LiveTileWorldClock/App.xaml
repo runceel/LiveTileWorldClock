@@ -1,8 +1,8 @@
-﻿<Application
-    x:Class="LiveTileWorldClock.App"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:LiveTileWorldClock"
-    RequestedTheme="Light">
+﻿<Prism:PrismUnityApplication x:Class="LiveTileWorldClock.App"
+                             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                             xmlns:local="using:LiveTileWorldClock"
+                             xmlns:Prism="using:Prism.Unity.Windows"
+                             RequestedTheme="Light">
 
-</Application>
+</Prism:PrismUnityApplication>
